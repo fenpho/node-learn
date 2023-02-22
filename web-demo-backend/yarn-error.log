@@ -1,0 +1,38 @@
+Arguments: 
+  D:\software\nvm\nodejs\node.exe C:\Users\DELL\.node\corepack\yarn\1.22.15\bin\yarn.js add mysql2 -D
+
+PATH: 
+  C:\Program Files\PowerShell\7;D:\software\Java\jdk1.8.0_25\bin;C:\Program Files\Common Files\Oracle\Java\javapath_bak;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PowerShell\7\;%NODE_PATH%;D:\Program Files (x86)\NetSarang\Xshell 7\;D:\software\nvm\nvm;D:\software\nvm\nodejs;C:\Program Files\dotnet\;D:\software\Java\apache-maven-3.8.6\bin;D:\software\python;D:\software\python\Scripts;%MYSQL_HOME%\bin;D:\software\MongoDB\Server\6.0\bin;C:\Users\DELL\AppData\Local\pnpm;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;%NODE_PATH%;D:\software\nvm\nvm;D:\software\nvm\nodejs;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 120.77.28.168:4874
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "web-demo-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
